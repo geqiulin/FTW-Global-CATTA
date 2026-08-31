@@ -1,0 +1,68 @@
+{
+  "benchmark": "Fields of the World",
+  "country": "lithuania",
+  "selection_protocol": "configuration frozen on validation before test cache evaluation",
+  "selected_base_configuration": {
+    "ensemble": "spatial4",
+    "field_threshold": 0.5,
+    "background_ratio": 0.6,
+    "boundary_ratio": 3.0,
+    "min_object_pixels": 24,
+    "max_hole_pixels": 0,
+    "close_radius": 0,
+    "open_radius": 0
+  },
+  "selected_instance_configuration": {
+    "large_min_pixels": 768,
+    "large_boundary_ratio": 15.0,
+    "large_open_radius": 2,
+    "grow_radius": 8,
+    "grow_field_threshold": 0.05,
+    "grow_background_ratio": 0.2,
+    "grow_boundary_ratio": 0.0
+  },
+  "validation": {
+    "pixel_iou": 0.8579249074354793,
+    "pixel_precision": 0.9039318436455793,
+    "pixel_recall": 0.9439972833547732,
+    "pixel_tp": 10249459,
+    "pixel_fp": 1089293,
+    "pixel_fn": 608050,
+    "object_precision": 0.7390611416980586,
+    "object_recall": 0.4945225399903054,
+    "object_f1": 0.5925538711738398,
+    "object_tp": 5101,
+    "object_fp": 1801,
+    "object_fn": 5214
+  },
+  "baseline_test": {
+    "pixel_iou": 0.7945496450464498,
+    "pixel_precision": 0.8684143142195404,
+    "pixel_recall": 0.9033011500841839,
+    "pixel_tp": 8420978,
+    "pixel_fp": 1275981,
+    "pixel_fn": 901470,
+    "object_precision": 0.6101604278074866,
+    "object_recall": 0.42718083114938227,
+    "object_f1": 0.5025324818321956,
+    "object_tp": 4564,
+    "object_fp": 2916,
+    "object_fn": 6120
+  },
+  "frozen_test": {
+    "pixel_iou": 0.8032446795874979,
+    "pixel_precision": 0.8531074416934392,
+    "pixel_recall": 0.9321702840284011,
+    "pixel_tp": 8690109,
+    "pixel_fp": 1496309,
+    "pixel_fn": 632339,
+    "object_precision": 0.709338631847857,
+    "object_recall": 0.46780232122800447,
+    "object_f1": 0.5637901861252115,
+    "object_tp": 4998,
+    "object_fp": 2048,
+    "object_fn": 5686
+  },
+  "object_f1_absolute_gain": 0.06125770429301591,
+  "pixel_iou_absolute_gain": 0.008695034541048141
+}

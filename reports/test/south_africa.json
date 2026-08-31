@@ -1,0 +1,65 @@
+{
+  "benchmark": "Fields of the World",
+  "country": "south_africa",
+  "selection_protocol": "configuration frozen on validation before test cache evaluation",
+  "selected_base_configuration": {
+    "ensemble": "spatial4",
+    "field_threshold": 0.5,
+    "background_ratio": 0.6,
+    "boundary_ratio": 3.0,
+    "min_object_pixels": 24,
+    "max_hole_pixels": 0,
+    "close_radius": 0,
+    "open_radius": 0
+  },
+  "selected_instance_configuration": {
+    "large_min_pixels": 512,
+    "large_boundary_ratio": 15.0,
+    "large_open_radius": 2,
+    "grow_radius": 2,
+    "grow_field_threshold": 0.15,
+    "grow_background_ratio": 0.2,
+    "grow_boundary_ratio": 0.2
+  },
+  "validation": {
+    "pixel_iou": 0.8541441738502363,
+    "pixel_precision": 0.8761526124055804,
+    "pixel_recall": 0.9714313062367249,
+    "object_precision": 0.7469879518072289,
+    "object_recall": 0.5429936305732485,
+    "object_f1": 0.6288612263715998,
+    "object_tp": 682,
+    "object_fp": 231,
+    "object_fn": 574
+  },
+  "baseline_test": {
+    "pixel_iou": 0.8243041121122422,
+    "pixel_precision": 0.8787589513562474,
+    "pixel_recall": 0.9300802788164175,
+    "pixel_tp": 2842649,
+    "pixel_fp": 392196,
+    "pixel_fn": 213699,
+    "object_precision": 0.6886792452830188,
+    "object_recall": 0.44421906693711966,
+    "object_f1": 0.5400739827373613,
+    "object_tp": 657,
+    "object_fp": 297,
+    "object_fn": 822
+  },
+  "frozen_test": {
+    "pixel_iou": 0.8327768013805198,
+    "pixel_precision": 0.8790123585137005,
+    "pixel_recall": 0.9405908620353441,
+    "pixel_tp": 2874773,
+    "pixel_fp": 395685,
+    "pixel_fn": 181575,
+    "object_precision": 0.7456310679611651,
+    "object_recall": 0.5192697768762677,
+    "object_f1": 0.612196094061379,
+    "object_tp": 768,
+    "object_fp": 262,
+    "object_fn": 711
+  },
+  "object_f1_absolute_gain": 0.07212211132401769,
+  "pixel_iou_absolute_gain": 0.0084726892682776
+}

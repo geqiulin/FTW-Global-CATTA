@@ -1,0 +1,65 @@
+{
+  "benchmark": "Fields of the World",
+  "country": "cambodia",
+  "selection_protocol": "configuration frozen on validation before test cache evaluation",
+  "selected_base_configuration": {
+    "ensemble": "scale2_base",
+    "field_threshold": 0.3,
+    "background_ratio": 0.6,
+    "boundary_ratio": 0.8,
+    "min_object_pixels": 8,
+    "max_hole_pixels": 0,
+    "close_radius": 0,
+    "open_radius": 0
+  },
+  "selected_instance_configuration": {
+    "large_min_pixels": 128,
+    "large_boundary_ratio": 2.0,
+    "large_open_radius": 1,
+    "grow_radius": 2,
+    "grow_field_threshold": 0.03,
+    "grow_background_ratio": 0.0,
+    "grow_boundary_ratio": 0.0
+  },
+  "validation": {
+    "pixel_iou": 0.48777705540808564,
+    "pixel_precision": 0.7174860769116359,
+    "pixel_recall": 0.6037328819190791,
+    "object_precision": 0.16717019133937563,
+    "object_recall": 0.07147610286922143,
+    "object_f1": 0.10013709898546751,
+    "object_tp": 1826,
+    "object_fp": 9097,
+    "object_fn": 23721
+  },
+  "baseline_test": {
+    "pixel_iou": 0.6582473226774158,
+    "pixel_precision": 0.8856420842418903,
+    "pixel_recall": 0.719392620712004,
+    "pixel_tp": 776980,
+    "pixel_fp": 100327,
+    "pixel_fn": 303070,
+    "object_precision": 0.47400143017672897,
+    "object_recall": 0.29346657390424385,
+    "object_f1": 0.3625,
+    "object_tp": 4640,
+    "object_fp": 5149,
+    "object_fn": 11171
+  },
+  "frozen_test": {
+    "pixel_iou": 0.752401514637766,
+    "pixel_precision": 0.8353211844464365,
+    "pixel_recall": 0.8834442849868062,
+    "pixel_tp": 954164,
+    "pixel_fp": 188108,
+    "pixel_fn": 125886,
+    "object_precision": 0.5505471338219055,
+    "object_recall": 0.3468471317437227,
+    "object_f1": 0.4255781468260127,
+    "object_tp": 5484,
+    "object_fp": 4477,
+    "object_fn": 10327
+  },
+  "object_f1_absolute_gain": 0.0630781468260127,
+  "pixel_iou_absolute_gain": 0.09415419196035013
+}

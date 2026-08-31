@@ -1,0 +1,68 @@
+{
+  "benchmark": "Fields of the World",
+  "country": "slovakia",
+  "selection_protocol": "configuration frozen on validation before test cache evaluation",
+  "selected_base_configuration": {
+    "ensemble": "spatial4",
+    "field_threshold": 0.4,
+    "background_ratio": 1.0,
+    "boundary_ratio": 0.8,
+    "min_object_pixels": 32,
+    "max_hole_pixels": 0,
+    "close_radius": 0,
+    "open_radius": 0
+  },
+  "selected_instance_configuration": {
+    "large_min_pixels": 0,
+    "large_boundary_ratio": 0.0,
+    "large_open_radius": 0,
+    "grow_radius": 2,
+    "grow_field_threshold": 0.3,
+    "grow_background_ratio": 0.4,
+    "grow_boundary_ratio": 0.0
+  },
+  "validation": {
+    "pixel_iou": 0.938076817932753,
+    "pixel_precision": 0.9790794353495065,
+    "pixel_recall": 0.9572646495348798,
+    "pixel_tp": 14144508,
+    "pixel_fp": 302234,
+    "pixel_fn": 631456,
+    "object_precision": 0.8661800486618005,
+    "object_recall": 0.5876203576341128,
+    "object_f1": 0.7002130798229799,
+    "object_tp": 2136,
+    "object_fp": 330,
+    "object_fn": 1499
+  },
+  "baseline_test": {
+    "pixel_iou": 0.9371548421564231,
+    "pixel_precision": 0.9715722017891846,
+    "pixel_recall": 0.963576852338378,
+    "pixel_tp": 14457827,
+    "pixel_fp": 423030,
+    "pixel_fn": 546505,
+    "object_precision": 0.7633175994605529,
+    "object_recall": 0.5617866004962779,
+    "object_f1": 0.6472269868496284,
+    "object_tp": 2264,
+    "object_fp": 702,
+    "object_fn": 1766
+  },
+  "frozen_test": {
+    "pixel_iou": 0.9425571966996291,
+    "pixel_precision": 0.9699994706223717,
+    "pixel_recall": 0.9708594824481357,
+    "pixel_tp": 14567098,
+    "pixel_fp": 450537,
+    "pixel_fn": 437234,
+    "object_precision": 0.8499047619047619,
+    "object_recall": 0.5535980148883375,
+    "object_f1": 0.670473328324568,
+    "object_tp": 2231,
+    "object_fp": 394,
+    "object_fn": 1799
+  },
+  "object_f1_absolute_gain": 0.023246341474939536,
+  "pixel_iou_absolute_gain": 0.005402354543206034
+}

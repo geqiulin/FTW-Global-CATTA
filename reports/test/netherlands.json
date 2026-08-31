@@ -1,0 +1,68 @@
+{
+  "benchmark": "Fields of the World",
+  "country": "netherlands",
+  "selection_protocol": "configuration frozen on validation before test cache evaluation",
+  "selected_base_configuration": {
+    "ensemble": "spatial4",
+    "field_threshold": 0.55,
+    "background_ratio": 0.6,
+    "boundary_ratio": 3.0,
+    "min_object_pixels": 24,
+    "max_hole_pixels": 0,
+    "close_radius": 0,
+    "open_radius": 0
+  },
+  "selected_instance_configuration": {
+    "large_min_pixels": 512,
+    "large_boundary_ratio": 15.0,
+    "large_open_radius": 2,
+    "grow_radius": 10,
+    "grow_field_threshold": 0.15,
+    "grow_background_ratio": 0.0,
+    "grow_boundary_ratio": 0.0
+  },
+  "validation": {
+    "pixel_iou": 0.8378295070995792,
+    "pixel_precision": 0.9113710957706783,
+    "pixel_recall": 0.9121487818859672,
+    "pixel_tp": 3269912,
+    "pixel_fp": 317992,
+    "pixel_fn": 314933,
+    "object_precision": 0.7839285714285714,
+    "object_recall": 0.47444804693530956,
+    "object_f1": 0.5911320573242281,
+    "object_tp": 3073,
+    "object_fp": 847,
+    "object_fn": 3404
+  },
+  "baseline_test": {
+    "pixel_iou": 0.8095081354977355,
+    "pixel_precision": 0.9152943810758528,
+    "pixel_recall": 0.8750641484941111,
+    "pixel_tp": 3580822,
+    "pixel_fp": 331386,
+    "pixel_fn": 511246,
+    "object_precision": 0.7410856234385647,
+    "object_recall": 0.4600958826847152,
+    "object_f1": 0.5677250978686386,
+    "object_tp": 3263,
+    "object_fp": 1140,
+    "object_fn": 3829
+  },
+  "frozen_test": {
+    "pixel_iou": 0.8248465853547828,
+    "pixel_precision": 0.8977519931501617,
+    "pixel_recall": 0.9103709909023995,
+    "pixel_tp": 3725300,
+    "pixel_fp": 424287,
+    "pixel_fn": 366768,
+    "object_precision": 0.7866882366535706,
+    "object_recall": 0.47997743936830234,
+    "object_f1": 0.5961993169279272,
+    "object_tp": 3404,
+    "object_fp": 923,
+    "object_fn": 3688
+  },
+  "object_f1_absolute_gain": 0.028474219059288597,
+  "pixel_iou_absolute_gain": 0.015338449857047354
+}

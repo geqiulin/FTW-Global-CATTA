@@ -1,0 +1,68 @@
+{
+  "benchmark": "Fields of the World",
+  "country": "denmark",
+  "selection_protocol": "configuration frozen on validation before test cache evaluation",
+  "selected_base_configuration": {
+    "ensemble": "spatial4",
+    "field_threshold": 0.55,
+    "background_ratio": 0.6,
+    "boundary_ratio": 0.8,
+    "min_object_pixels": 24,
+    "max_hole_pixels": 0,
+    "close_radius": 0,
+    "open_radius": 0
+  },
+  "selected_instance_configuration": {
+    "large_min_pixels": 0,
+    "large_boundary_ratio": 0.0,
+    "large_open_radius": 0,
+    "grow_radius": 10,
+    "grow_field_threshold": 0.15,
+    "grow_background_ratio": 0.2,
+    "grow_boundary_ratio": 0.8
+  },
+  "validation": {
+    "pixel_iou": 0.8727038336973917,
+    "pixel_precision": 0.9311368899585659,
+    "pixel_recall": 0.9329157439835113,
+    "pixel_tp": 12970600,
+    "pixel_fp": 959253,
+    "pixel_fn": 932692,
+    "object_precision": 0.75984375,
+    "object_recall": 0.638775778274005,
+    "object_f1": 0.6940697923356883,
+    "object_tp": 4863,
+    "object_fp": 1537,
+    "object_fn": 2750
+  },
+  "baseline_test": {
+    "pixel_iou": 0.8554782819634117,
+    "pixel_precision": 0.9291974163447628,
+    "pixel_recall": 0.9151314600970636,
+    "pixel_tp": 11235726,
+    "pixel_fp": 856135,
+    "pixel_fn": 1041992,
+    "object_precision": 0.6890813380879606,
+    "object_recall": 0.6080311657177105,
+    "object_f1": 0.646024038844225,
+    "object_tp": 4058,
+    "object_fp": 1831,
+    "object_fn": 2616
+  },
+  "frozen_test": {
+    "pixel_iou": 0.8636015690792337,
+    "pixel_precision": 0.9250902609833251,
+    "pixel_recall": 0.9285346022770681,
+    "pixel_tp": 11400286,
+    "pixel_fp": 923145,
+    "pixel_fn": 877432,
+    "object_precision": 0.7611524163568774,
+    "object_recall": 0.6135750674258316,
+    "object_f1": 0.6794425087108014,
+    "object_tp": 4095,
+    "object_fp": 1285,
+    "object_fn": 2579
+  },
+  "object_f1_absolute_gain": 0.03341846986657637,
+  "pixel_iou_absolute_gain": 0.008123287115821998
+}

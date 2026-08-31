@@ -1,0 +1,68 @@
+{
+  "benchmark": "Fields of the World",
+  "country": "corsica",
+  "selection_protocol": "configuration frozen on validation before test cache evaluation",
+  "selected_base_configuration": {
+    "ensemble": "base",
+    "field_threshold": 0.5,
+    "background_ratio": 1.2,
+    "boundary_ratio": 2.0,
+    "min_object_pixels": 32,
+    "max_hole_pixels": 0,
+    "close_radius": 0,
+    "open_radius": 0
+  },
+  "selected_instance_configuration": {
+    "large_min_pixels": 1024,
+    "large_boundary_ratio": 3.0,
+    "large_open_radius": 2,
+    "grow_radius": 10,
+    "grow_field_threshold": 0.03,
+    "grow_background_ratio": 0.0,
+    "grow_boundary_ratio": 0.0
+  },
+  "validation": {
+    "pixel_iou": 0.48293454454497203,
+    "pixel_precision": 0.713329548577788,
+    "pixel_recall": 0.5992339180511844,
+    "pixel_tp": 316637,
+    "pixel_fp": 127249,
+    "pixel_fn": 211766,
+    "object_precision": 0.42782152230971127,
+    "object_recall": 0.20123456790123456,
+    "object_f1": 0.27371956339210746,
+    "object_tp": 163,
+    "object_fp": 218,
+    "object_fn": 647
+  },
+  "baseline_test": {
+    "pixel_iou": 0.5099361220266014,
+    "pixel_precision": 0.8099047432146648,
+    "pixel_recall": 0.579267943582271,
+    "pixel_tp": 313651,
+    "pixel_fp": 73618,
+    "pixel_fn": 227810,
+    "object_precision": 0.4529262086513995,
+    "object_recall": 0.16635514018691588,
+    "object_f1": 0.24333561175666443,
+    "object_tp": 178,
+    "object_fp": 215,
+    "object_fn": 892
+  },
+  "frozen_test": {
+    "pixel_iou": 0.5118361172881005,
+    "pixel_precision": 0.8037681549288268,
+    "pixel_recall": 0.584928554411121,
+    "pixel_tp": 316716,
+    "pixel_fp": 77323,
+    "pixel_fn": 224745,
+    "object_precision": 0.47043010752688175,
+    "object_recall": 0.16355140186915887,
+    "object_f1": 0.24271844660194175,
+    "object_tp": 175,
+    "object_fp": 197,
+    "object_fn": 895
+  },
+  "object_f1_absolute_gain": -0.000617165154722682,
+  "pixel_iou_absolute_gain": 0.0018999952614990878
+}

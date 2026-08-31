@@ -1,0 +1,68 @@
+{
+  "benchmark": "Fields of the World",
+  "country": "estonia",
+  "selection_protocol": "configuration frozen on validation before test cache evaluation",
+  "selected_base_configuration": {
+    "ensemble": "base",
+    "field_threshold": 0.35,
+    "background_ratio": 0.6,
+    "boundary_ratio": 0.8,
+    "min_object_pixels": 24,
+    "max_hole_pixels": 0,
+    "close_radius": 0,
+    "open_radius": 0
+  },
+  "selected_instance_configuration": {
+    "large_min_pixels": 1024,
+    "large_boundary_ratio": 3.0,
+    "large_open_radius": 3,
+    "grow_radius": 10,
+    "grow_field_threshold": 0.03,
+    "grow_background_ratio": 0.2,
+    "grow_boundary_ratio": 0.0
+  },
+  "validation": {
+    "pixel_iou": 0.8440385272541228,
+    "pixel_precision": 0.9198669733368358,
+    "pixel_recall": 0.9110236641576943,
+    "pixel_tp": 7921164,
+    "pixel_fp": 690042,
+    "pixel_fn": 773631,
+    "object_precision": 0.7785784474287586,
+    "object_recall": 0.4137510879025239,
+    "object_f1": 0.5403500795635372,
+    "object_tp": 2377,
+    "object_fp": 676,
+    "object_fn": 3368
+  },
+  "baseline_test": {
+    "pixel_iou": 0.8369079812230326,
+    "pixel_precision": 0.9189919860740096,
+    "pixel_recall": 0.903566240172646,
+    "pixel_tp": 7940054,
+    "pixel_fp": 699906,
+    "pixel_fn": 847408,
+    "object_precision": 0.7180406212664278,
+    "object_recall": 0.4312881234302117,
+    "object_f1": 0.5388926249719794,
+    "object_tp": 2404,
+    "object_fp": 944,
+    "object_fn": 3170
+  },
+  "frozen_test": {
+    "pixel_iou": 0.8375922931261565,
+    "pixel_precision": 0.917306108942575,
+    "pixel_recall": 0.9060025522727723,
+    "pixel_tp": 7961463,
+    "pixel_fp": 717715,
+    "pixel_fn": 825999,
+    "object_precision": 0.7609649122807017,
+    "object_recall": 0.43577323286688197,
+    "object_f1": 0.5541866301619895,
+    "object_tp": 2429,
+    "object_fp": 763,
+    "object_fn": 3145
+  },
+  "object_f1_absolute_gain": 0.015294005190010118,
+  "pixel_iou_absolute_gain": 0.000684311903123902
+}

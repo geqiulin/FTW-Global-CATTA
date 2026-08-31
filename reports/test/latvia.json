@@ -1,0 +1,68 @@
+{
+  "benchmark": "Fields of the World",
+  "country": "latvia",
+  "selection_protocol": "configuration frozen on validation before test cache evaluation",
+  "selected_base_configuration": {
+    "ensemble": "base",
+    "field_threshold": 0.0,
+    "background_ratio": 0.6,
+    "boundary_ratio": 2.0,
+    "min_object_pixels": 32,
+    "max_hole_pixels": 0,
+    "close_radius": 0,
+    "open_radius": 0
+  },
+  "selected_instance_configuration": {
+    "large_min_pixels": 1024,
+    "large_boundary_ratio": 15.0,
+    "large_open_radius": 3,
+    "grow_radius": 10,
+    "grow_field_threshold": 0.03,
+    "grow_background_ratio": 0.0,
+    "grow_boundary_ratio": 0.0
+  },
+  "validation": {
+    "pixel_iou": 0.850723254055975,
+    "pixel_precision": 0.9284578408938471,
+    "pixel_recall": 0.9104022460724853,
+    "pixel_tp": 9039200,
+    "pixel_fp": 696514,
+    "pixel_fn": 889598,
+    "object_precision": 0.7793103448275862,
+    "object_recall": 0.4780033840947547,
+    "object_f1": 0.5925537493445202,
+    "object_tp": 3390,
+    "object_fp": 960,
+    "object_fn": 3702
+  },
+  "baseline_test": {
+    "pixel_iou": 0.8471300139946917,
+    "pixel_precision": 0.9330984471195228,
+    "pixel_recall": 0.9019100115799865,
+    "pixel_tp": 11829210,
+    "pixel_fp": 848134,
+    "pixel_fn": 1286522,
+    "object_precision": 0.7222923049198053,
+    "object_recall": 0.4573776104073947,
+    "object_f1": 0.5600894354387926,
+    "object_tp": 4008,
+    "object_fp": 1541,
+    "object_fn": 4755
+  },
+  "frozen_test": {
+    "pixel_iou": 0.8478136754768899,
+    "pixel_precision": 0.9305449850390992,
+    "pixel_recall": 0.9050876458896843,
+    "pixel_tp": 11870887,
+    "pixel_fp": 886032,
+    "pixel_fn": 1244845,
+    "object_precision": 0.7709308859336954,
+    "object_recall": 0.46970215679561794,
+    "object_f1": 0.5837469862430861,
+    "object_tp": 4116,
+    "object_fp": 1223,
+    "object_fn": 4647
+  },
+  "object_f1_absolute_gain": 0.023657550804293437,
+  "pixel_iou_absolute_gain": 0.0006836614821982279
+}

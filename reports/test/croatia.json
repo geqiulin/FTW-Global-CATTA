@@ -1,0 +1,68 @@
+{
+  "benchmark": "Fields of the World",
+  "country": "croatia",
+  "selection_protocol": "configuration frozen on validation before test cache evaluation",
+  "selected_base_configuration": {
+    "ensemble": "spatial4",
+    "field_threshold": 0.45,
+    "background_ratio": 0.6,
+    "boundary_ratio": 1.2,
+    "min_object_pixels": 24,
+    "max_hole_pixels": 0,
+    "close_radius": 0,
+    "open_radius": 0
+  },
+  "selected_instance_configuration": {
+    "large_min_pixels": 512,
+    "large_boundary_ratio": 15.0,
+    "large_open_radius": 1,
+    "grow_radius": 10,
+    "grow_field_threshold": 0.05,
+    "grow_background_ratio": 0.0,
+    "grow_boundary_ratio": 0.5
+  },
+  "validation": {
+    "pixel_iou": 0.7962760303122672,
+    "pixel_precision": 0.874002694597306,
+    "pixel_recall": 0.8995356465192559,
+    "pixel_tp": 6603842,
+    "pixel_fp": 952018,
+    "pixel_fn": 737548,
+    "object_precision": 0.6243834664814172,
+    "object_recall": 0.43914594224849757,
+    "object_f1": 0.5156330675233779,
+    "object_tp": 8988,
+    "object_fp": 5407,
+    "object_fn": 11479
+  },
+  "baseline_test": {
+    "pixel_iou": 0.766125010793908,
+    "pixel_precision": 0.8694477015781674,
+    "pixel_recall": 0.8657149886143147,
+    "pixel_tp": 5633842,
+    "pixel_fp": 845952,
+    "pixel_fn": 873891,
+    "object_precision": 0.5101623243759378,
+    "object_recall": 0.4011154011154011,
+    "object_f1": 0.4491143800660462,
+    "object_tp": 7480,
+    "object_fp": 7182,
+    "object_fn": 11168
+  },
+  "frozen_test": {
+    "pixel_iou": 0.780202743917095,
+    "pixel_precision": 0.856223573769382,
+    "pixel_recall": 0.897828168426701,
+    "pixel_tp": 5842826,
+    "pixel_fp": 981123,
+    "pixel_fn": 664907,
+    "object_precision": 0.6172080114019953,
+    "object_recall": 0.4412269412269412,
+    "object_f1": 0.5145876981769286,
+    "object_tp": 8228,
+    "object_fp": 5103,
+    "object_fn": 10420
+  },
+  "object_f1_absolute_gain": 0.06547331811088242,
+  "pixel_iou_absolute_gain": 0.014077733123186942
+}

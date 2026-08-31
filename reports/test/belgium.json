@@ -1,0 +1,68 @@
+{
+  "benchmark": "Fields of the World",
+  "country": "belgium",
+  "selection_protocol": "configuration frozen on validation before test cache evaluation",
+  "selected_base_configuration": {
+    "ensemble": "spatial4",
+    "field_threshold": 0.5,
+    "background_ratio": 0.6,
+    "boundary_ratio": 2.0,
+    "min_object_pixels": 16,
+    "max_hole_pixels": 0,
+    "close_radius": 0,
+    "open_radius": 0
+  },
+  "selected_instance_configuration": {
+    "large_min_pixels": 1024,
+    "large_boundary_ratio": 10.0,
+    "large_open_radius": 3,
+    "grow_radius": 10,
+    "grow_field_threshold": 0.15,
+    "grow_background_ratio": 0.2,
+    "grow_boundary_ratio": 0.0
+  },
+  "validation": {
+    "pixel_iou": 0.82718098193871,
+    "pixel_precision": 0.8768125288940779,
+    "pixel_recall": 0.9359522031751097,
+    "pixel_tp": 2909399,
+    "pixel_fp": 408755,
+    "pixel_fn": 199092,
+    "object_precision": 0.8010592519033433,
+    "object_recall": 0.6203537554473212,
+    "object_f1": 0.6992198786477897,
+    "object_tp": 4840,
+    "object_fp": 1202,
+    "object_fn": 2962
+  },
+  "baseline_test": {
+    "pixel_iou": 0.8163874785558477,
+    "pixel_precision": 0.9143512442434863,
+    "pixel_recall": 0.8839881106846227,
+    "pixel_tp": 2776284,
+    "pixel_fp": 260059,
+    "pixel_fn": 364351,
+    "object_precision": 0.7524021962937543,
+    "object_recall": 0.5814878663307254,
+    "object_f1": 0.6559952128057446,
+    "object_tp": 4385,
+    "object_fp": 1443,
+    "object_fn": 3156
+  },
+  "frozen_test": {
+    "pixel_iou": 0.8372374382281395,
+    "pixel_precision": 0.8938861910784578,
+    "pixel_recall": 0.9296327016670196,
+    "pixel_tp": 2919637,
+    "pixel_fp": 346592,
+    "pixel_fn": 220998,
+    "object_precision": 0.8218051831992851,
+    "object_recall": 0.6097334571011802,
+    "object_f1": 0.7000609013398295,
+    "object_tp": 4598,
+    "object_fp": 997,
+    "object_fn": 2943
+  },
+  "object_f1_absolute_gain": 0.04406568853408488,
+  "pixel_iou_absolute_gain": 0.02084995967229175
+}

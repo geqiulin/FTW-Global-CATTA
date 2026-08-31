@@ -1,0 +1,68 @@
+{
+  "benchmark": "Fields of the World",
+  "country": "austria",
+  "selection_protocol": "configuration frozen on validation before test cache evaluation",
+  "selected_base_configuration": {
+    "ensemble": "spatial4",
+    "field_threshold": 0.5,
+    "background_ratio": 0.6,
+    "boundary_ratio": 0.8,
+    "min_object_pixels": 24,
+    "max_hole_pixels": 0,
+    "close_radius": 0,
+    "open_radius": 0
+  },
+  "selected_instance_configuration": {
+    "large_min_pixels": 384,
+    "large_boundary_ratio": 15.0,
+    "large_open_radius": 0,
+    "grow_radius": 10,
+    "grow_field_threshold": 0.2,
+    "grow_background_ratio": 0.2,
+    "grow_boundary_ratio": 0.0
+  },
+  "validation": {
+    "pixel_iou": 0.7927351020601155,
+    "pixel_precision": 0.8581834963692843,
+    "pixel_recall": 0.9122394017261088,
+    "pixel_tp": 9422321,
+    "pixel_fp": 1557057,
+    "pixel_fn": 906460,
+    "object_precision": 0.7673236218223365,
+    "object_recall": 0.4438569823541075,
+    "object_f1": 0.5623966336592209,
+    "object_tp": 13432,
+    "object_fp": 4073,
+    "object_fn": 16830
+  },
+  "baseline_test": {
+    "pixel_iou": 0.7829633404937572,
+    "pixel_precision": 0.8889477272220715,
+    "pixel_recall": 0.8678495406822129,
+    "pixel_tp": 11566250,
+    "pixel_fp": 1444920,
+    "pixel_fn": 1761233,
+    "object_precision": 0.6194842197545295,
+    "object_recall": 0.42133114705224717,
+    "object_f1": 0.5015452408061868,
+    "object_tp": 16959,
+    "object_fp": 10417,
+    "object_fn": 23292
+  },
+  "frozen_test": {
+    "pixel_iou": 0.8062351459453441,
+    "pixel_precision": 0.8677046381495422,
+    "pixel_recall": 0.9192299851367284,
+    "pixel_tp": 12251022,
+    "pixel_fp": 1867863,
+    "pixel_fn": 1076461,
+    "object_precision": 0.7782476024411509,
+    "object_recall": 0.4435417753596184,
+    "object_f1": 0.5650488202433891,
+    "object_tp": 17853,
+    "object_fp": 5087,
+    "object_fn": 22398
+  },
+  "object_f1_absolute_gain": 0.0635035794372023,
+  "pixel_iou_absolute_gain": 0.023271805451586913
+}

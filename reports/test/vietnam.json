@@ -1,0 +1,69 @@
+{
+  "benchmark": "Fields of the World",
+  "country": "vietnam",
+  "selection_protocol": "V3 configuration frozen after validation convergence and stability audit before test evaluation",
+  "selected_base_configuration": {
+    "ensemble": "scale2_spatial4",
+    "secondary_weight": 0.4,
+    "field_threshold": 0.46,
+    "background_ratio": 1.0,
+    "boundary_ratio": 1.8,
+    "min_object_pixels": 24,
+    "rescue_mean_field": 0.75
+  },
+  "selected_instance_configuration": {
+    "large_min_pixels": 448,
+    "large_boundary_ratio": 10.0,
+    "large_open_radius": 2,
+    "grow_radius": 8,
+    "grow_field_threshold": 0.1,
+    "grow_background_ratio": 0.5,
+    "grow_boundary_ratio": 0.0
+  },
+  "validation": {
+    "pixel_iou": 0.7684750044799362,
+    "pixel_precision": 0.8487677701668178,
+    "pixel_recall": 0.8903927219451426,
+    "object_precision": 0.43911007025761123,
+    "object_recall": 0.2345006253350009,
+    "object_f1": 0.3057302585604473,
+    "object_tp": 2625,
+    "object_fp": 3353,
+    "object_fn": 8569
+  },
+  "baseline_test": {
+    "pixel_iou": 0.6695758985432056,
+    "pixel_precision": 0.8307673468847424,
+    "pixel_recall": 0.775328287469094,
+    "pixel_tp": 502046,
+    "pixel_fp": 102270,
+    "pixel_fn": 145481,
+    "object_precision": 0.3896470588235294,
+    "object_recall": 0.14754098360655737,
+    "object_f1": 0.2140364482357503,
+    "object_tp": 1656,
+    "object_fp": 2594,
+    "object_fn": 9568
+  },
+  "frozen_test": {
+    "pixel_iou": 0.725285616754359,
+    "pixel_precision": 0.7883188099032357,
+    "pixel_recall": 0.9007022101008916,
+    "pixel_tp": 583229,
+    "pixel_fp": 156610,
+    "pixel_fn": 64298,
+    "object_precision": 0.4438214846378112,
+    "object_recall": 0.17631860299358518,
+    "object_f1": 0.2523751833195179,
+    "object_tp": 1979,
+    "object_fp": 2480,
+    "object_fn": 9245
+  },
+  "object_f1_absolute_gain": 0.03833873508376762,
+  "pixel_iou_absolute_gain": 0.055709718211153336,
+  "validation_stability": {
+    "all_four_folds_improved_object_f1": true,
+    "bootstrap_object_f1_improvement_probability": 1.0,
+    "bootstrap_pixel_iou_improvement_probability": 1.0
+  }
+}
