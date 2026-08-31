@@ -1,0 +1,19 @@
+{
+  "release": "FTW-Global-CATTA",
+  "benchmark": "Fields of the World",
+  "scope": "20 full-data countries",
+  "model_type": "PRUE EfficientNet-B7 + Country-Adaptive Spatial-TTA Watershed",
+  "model_parameters_millions": 67.098499,
+  "optimized_object_f1": 0.5321830716312617,
+  "baseline_object_f1": 0.4842228304253621,
+  "absolute_object_f1_gain": 0.047960241205899534,
+  "last_verified_public_leader_object_f1": 0.471,
+  "expected_rank_if_accepted_against_last_verified_board": 1,
+  "submission_csv": "results/ftw_full_20_country_metrics.csv",
+  "submission_csv_sha256": "686bfec097bba67c04aee63d9a0dc36364b942e0ca139f24e06cd5c50cb5c929",
+  "aggregate_report": "results/full_submission_report.json",
+  "aggregate_report_sha256": "b2fc8f14a5c7df41c209c3323a0f2699501ae57672e787f7e082a3f550731d17",
+  "official_checkpoint_sha256": "2b1b34a17b85b8f70da6ff737529743b6bc6049e987bce5a1fcdd7279eb3b120",
+  "protocol": "Country configurations selected on validation data only and frozen before test evaluation",
+  "status": "Ready for public repository upload and leaderboard review"
+}

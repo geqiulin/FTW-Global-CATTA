@@ -1,0 +1,8 @@
+# Install the official ftw-tools environment first.
+numpy>=2.0,<3
+rasterio>=1.3,<2
+scipy>=1.11,<2
+shapely>=2,<3
+scikit-image>=0.25,<1
+torch>=2.2,<3
+
